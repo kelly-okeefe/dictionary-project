@@ -12,7 +12,7 @@ export default function Dictionary() {
     function search(event) {
         event.preventDefault();
         alert (`Searching for the definition of ${keyword}`);
-       /* let apiKey = "e7f44dtf8936b0ao9a003f375cfb3403"; */
+       // documentation https://dictionaryapi.dev/ 
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
         axios.get(apiUrl).then(handleResponse);
     }
