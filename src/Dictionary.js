@@ -5,7 +5,7 @@ import "./Dictionary.css";
 
 export default function Dictionary() {
     let [keyword, setKeyword] = useState("");
-    let [results, setResults] = useState ({});
+    let [results, setResults] = useState (null);
 
     function handleResponse(response) {
         // console.log(response.data[0].meanings[0].definitions[0].definition);//
@@ -30,7 +30,7 @@ export default function Dictionary() {
         <form onSubmit={search}>
             <input type="search" autoFocus={true} onChange={handleKeywordChange}/>
         </form>
-        <Results />
+        <Results results={results}/>
         </div>
     );
 }
