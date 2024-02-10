@@ -11,7 +11,7 @@ function App() {
         <Dictionary />
       </main>
       </header>
-      <footer>Coded by Kelly O'Keefe open-sourced on GitHub and hosted on Netlify</footer>
+      <footer>Coded by Kelly O'Keefe open-sourced <a href="https://github.com/kelly-okeefe/dictionary-project">on GitHub</a> and hosted on Netlify</footer>
       </div>
     </div>
   );
