@@ -10,7 +10,8 @@ function App() {
         <h1>Dictionary</h1>
         <Dictionary defaultKeyword = "sunset"/>
       </main>
-      <footer>Coded by Kelly O'Keefe open-sourced <a href="https://github.com/kelly-okeefe/dictionary-project">on GitHub</a> and hosted on Netlify</footer>
+      <footer>Coded by <a href="https://github.com/kelly-okeefe" target='_blank' rel="noreferrer">Kelly O'Keefe</a> 👩🏻‍🦰 Open-sourced <a href="https://github.com/kelly-okeefe/dictionary-project" target='_blank' rel="noreferrer">on GitHub</a>,   
+       and hosted <a href="https://kellyokeefe-react-dictionary.netlify.app/" target='_blank' rel="noreferrer">on Netlify</a></footer>
       </div>
     </div>
   );

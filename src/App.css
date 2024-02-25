@@ -1,11 +1,16 @@
+.App {
+  padding: 0 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 body {
-  background: #d6d6d6;
+  background: #eee7df;
 }
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 64;
-  padding-top: 30px;
+  font-size: 56px;
+  padding-top: 20px;
   text-align: center;
 }
 
