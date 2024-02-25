@@ -1,3 +1,14 @@
+body {
+  background: #d6d6d6;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 64;
+  padding-top: 30px;
+  text-align: center;
+}
+
 footer {
   text-align: center;
   margin: 30px 0;

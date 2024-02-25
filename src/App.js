@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
       <main>
         <h1>Dictionary</h1>
-        <Dictionary />
+        <Dictionary defaultKeyword = "sunset"/>
       </main>
       </header>
       <footer>Coded by Kelly O'Keefe open-sourced <a href="https://github.com/kelly-okeefe/dictionary-project">on GitHub</a> and hosted on Netlify</footer>
